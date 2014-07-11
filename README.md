@@ -1,18 +1,21 @@
 # pro-uc-samples
 
-Here are a set of simple samples that show you how to accomplish different mapping and GIS tasks with ArcGIS Pro Add-ins. 
+The pro-uc-samples repository contains a set of simple samples that show you how to accomplish different mapping and GIS tasks with ArcGIS Pro Add-ins. 
 
 
 ## Features
 Add a list of the samples here
 
 ## Instructions
-How to use the samples - download them via the button or clone.
-Have Pro and Visual Studio and Pro SDK.
-Compile and run.
+* Download the contents of the pro-uc-samples repository.
+* Check if you computer has the requirements to run the samples. Refer to the [Requirements]() section for the pre-requisites needed.
+* Open the solution in Visual Studio.
+* Compile the code and click Start > Run to open ArcGIS Pro. The add-in in the samples solution will load.
 
 ## Requirements
-* System requirements.
+* ArcGIS Pro Beta 4
+* ArcGIS Pro SDK for the Microsoft .NET Framework Beta 4
+* Microsoft Visual Studio 2013 (C#) Professional, Premium, Ultimate Edition, Update 1 or Visual Studio 2013 Express for Windows Desktop.
 
 ## Resources
 None right now.
