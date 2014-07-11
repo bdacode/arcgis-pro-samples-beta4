@@ -8,7 +8,7 @@ Add a list of the samples here
 
 ## Instructions
 * Download the contents of the [pro-uc-samples](https://github.com/ArcGIS/pro-uc-samples) repository.
-* Check if you computer has the requirements to run the samples. Refer to the [Requirements]() section for the pre-requisites needed.
+* Check if you computer has the requirements to run the samples. Refer to the [Requirements](https://github.com/ArcGIS/pro-uc-samples/blob/master/README.md#requirements) section for the pre-requisites needed.
 * Open the solution in Visual Studio.
 * Compile the code and click Start > Run to open ArcGIS Pro. The add-in in the samples solution will load.
 
