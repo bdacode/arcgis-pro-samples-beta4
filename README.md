@@ -4,26 +4,21 @@ Here are a set of simple samples that show you how to accomplish different mappi
 
 
 ## Features
-We have to add info here.
+Add a list of the samples here
 
 ## Instructions
-
-Any instructions?
+How to use the samples - download them via the button or clone.
+Have Pro and Visual Studio and Pro SDK.
+Compile and run.
 
 ## Requirements
-
-* Notepad or your favorite HTML editor
-* Web browser with access to the Internet
+* System requirements.
 
 ## Resources
-
-* [ArcGIS for JavaScript API Resource Center](http://help.arcgis.com/en/webapi/javascript/arcgis/index.html)
-* [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
-* [twitter@esri](http://twitter.com/esri)
+None right now.
 
 ## Issues
-
-Find a bug or want to request a new feature?  Please let us know by submitting an issue.
+Forum or email?
 
 ## Contributing
 
