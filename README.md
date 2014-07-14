@@ -15,6 +15,7 @@ The solution in this repo creates add-ins that extend ArcGIS Pro with the follow
 * Create conditions
 * Add command to the Layer context menu
 * A custom Edit Cut tool
+* Custom pane with list view
 
 
 ## Instructions
