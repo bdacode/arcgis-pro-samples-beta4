@@ -32,7 +32,7 @@ The solution in this repo creates add-ins that extend ArcGIS Pro with the follow
 * ArcGIS Pro SDK for the Microsoft .NET Framework Beta 4
 
 ## Resources
-
+* None
 
 ## Issues
 * The code in this repo is provided "as-is". This code is meant to work with ArcGIS Pro Beta 4 (Build 1141) only.
