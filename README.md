@@ -58,4 +58,4 @@ limitations under the License.
 A copy of the license is available in the repository's [license.txt](https://raw.github.com/Esri/arcgis-pro-samples-beta4/master/license.txt) file.
 
 [](Esri Tags: ArcGIS-Pro-SDK)
-[](Esri LanguaWeb Mapping QuickStartge: C-Sharp)​
+[](Esri Language: C-Sharp)​
