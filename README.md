@@ -32,7 +32,8 @@ The solution in this repo creates add-ins that extend ArcGIS Pro with the follow
 * ArcGIS Pro SDK for the Microsoft .NET Framework Beta 4
 
 ## Resources
-Link to EAP Getting started guide here?
+
+
 ## Issues
 Forum or email?
 
