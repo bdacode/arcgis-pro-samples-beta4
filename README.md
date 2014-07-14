@@ -1,16 +1,26 @@
-# pro-uc-samples
-
-The pro-uc-samples repository contains a set of simple samples that show you how to accomplish different mapping and GIS tasks with ArcGIS Pro Add-ins. 
+# arcgis-pro-samples-beta4
+The arcgis-pro-samples-beta4 repository contains a set of simple samples that show you how to accomplish different mapping and GIS tasks with ArcGIS Pro Add-ins. 
 
 
 ## Features
-Add a list of the samples here
+* Fixed Zoom In
+* Fixed Zoom Out
+* Custom Camera control
+* Hollywood Zoom In
+* Hollywood Zoom out
+* Execute GP Tool
+* Trap Selection changed (demonstrates how to subscribe to events)
+* Dockpane to display a collection of bookmarks
+* Create conditions
+* Add command to the Layer context menu
+* A custom Edit Cut tool
+
 
 ## Instructions
-* Download the contents of the [pro-uc-samples](https://github.com/ArcGIS/pro-uc-samples) repository.
-* Check if you computer has the requirements to run the samples. Refer to the [Requirements](https://github.com/ArcGIS/pro-uc-samples/blob/master/README.md#requirements) section for the pre-requisites needed.
+* Download the contents of the [arcgis-pro-samples-beta4](https://github.com/ArcGIS/arcgis-pro-samples-beta4) repository.
+* Check if your computer has the requirements to run the samples. Refer to the [Requirements](https://github.com/ArcGIS/arcgis-pro-samples-beta4/blob/master/README.md#requirements) section for the pre-requisites needed.
 * Open the solution in Visual Studio.
-* Compile the code and click Start > Run to open ArcGIS Pro. The add-in in the samples solution will load.
+* Compile the code and click Start to open ArcGIS Pro. The add-ins from the samples solution will load.
 
 ## Requirements
 * ArcGIS Pro Beta 4
@@ -18,8 +28,7 @@ Add a list of the samples here
 * Microsoft Visual Studio 2013 (C#) Professional, Premium, Ultimate Edition, Update 1 or Visual Studio 2013 Express for Windows Desktop.
 
 ## Resources
-None right now.
-
+Link to EAP Getting started guide here?
 ## Issues
 Forum or email?
 
