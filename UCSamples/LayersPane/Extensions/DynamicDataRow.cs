@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Dynamic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UCSamples.LayersPane.Extensions {
+    public class DynamicDataRow : DynamicObject, INotifyPropertyChanged {
+
+        private readonly IDictionary<string, object> data;
+
+        public DynamicDataRow() {
+            data = new Dictionary<string, object>();
+        }
+
+        public DynamicDataRow(IDictionary<string, object> source) {
+            data = source;
+        }
+
+        public override IEnumerable<string> GetDynamicMemberNames() {
+            return data.Keys;
+        }
+
+        public override bool TryGetMember(GetMemberBinder binder, out object result) {
+            result = this[binder.Name];
+
+            return true;
+        }
+
+        public override bool TrySetMember(SetMemberBinder binder, object value) {
+            this[binder.Name] = value;
+
+            return true;
+        }
+
+        public object this[string columnName] {
+            get {
+                if (data.ContainsKey(columnName)) {
+                    return data[columnName];
+                }
+
+                return null;
+            }
+            set {
+                if (!data.ContainsKey(columnName)) {
+                    data.Add(columnName, value);
+
+                    OnPropertyChanged(columnName);
+                }
+                else {
+                    if (data[columnName] != value) {
+                        data[columnName] = value;
+
+                        OnPropertyChanged(columnName);
+                    }
+                }
+            }
+        }
+
+        private void OnPropertyChanged([CallerMemberName] string propertyName = "") {
+            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        #region INotifyPropertyChanged Members
+
+        public event PropertyChangedEventHandler PropertyChanged = delegate { };
+
+        #endregion
+    }
+
+}
