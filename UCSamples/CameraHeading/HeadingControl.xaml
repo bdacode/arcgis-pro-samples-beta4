@@ -20,7 +20,7 @@
                 Stroke="Black" StrokeThickness="10"
                 MouseLeftButtonUp="Polygon_MouseLeftButtonUp"
                 MouseMove="Polygon_MouseMove"/>
-                            <Ellipse Fill="Black" Width="60" Height="60" Canvas.Left="120" Canvas.Top="120"/>
+                            <Ellipse Fill="Black" Width="60" Height="60" Canvas.Left="120" Canvas.Top="120" MouseLeftButtonUp="ResetHeading"/>
                             <Canvas>
                                 <Line Stroke="Red" StrokeThickness="5" X1="150" Y1="150" X2="150" Y2="10"
                 MouseLeftButtonUp="Polygon_MouseLeftButtonUp"/>
