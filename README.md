@@ -3,6 +3,7 @@ The arcgis-pro-samples-beta4 repository contains a set of simple samples that sh
 
 
 ## Features
+The solution in this repo creates add-ins that extend ArcGIS Pro with the following functionality:
 * Fixed Zoom In
 * Fixed Zoom Out
 * Custom Camera control
