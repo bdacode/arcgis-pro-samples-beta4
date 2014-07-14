@@ -35,7 +35,6 @@ The solution in this repo creates add-ins that extend ArcGIS Pro with the follow
 
 
 ## Issues
-Forum or email?
 
 ## Contributing
 
