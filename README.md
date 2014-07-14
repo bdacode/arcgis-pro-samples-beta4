@@ -26,8 +26,10 @@ The solution in this repo creates add-ins that extend ArcGIS Pro with the follow
 
 ## Requirements
 * ArcGIS Pro Beta 4
-* ArcGIS Pro SDK for the Microsoft .NET Framework Beta 4
 * Microsoft Visual Studio 2013 (C#) Professional, Premium, Ultimate Edition, Update 1 or Visual Studio 2013 Express for Windows Desktop.
+
+## Optional
+* ArcGIS Pro SDK for the Microsoft .NET Framework Beta 4
 
 ## Resources
 Link to EAP Getting started guide here?
