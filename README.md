@@ -21,7 +21,7 @@ The solution in this repo creates add-ins that extend ArcGIS Pro with the follow
 ## Instructions
 * Download the contents of the [arcgis-pro-samples-beta4](https://github.com/Esri/arcgis-pro-samples-beta4) repository.
 * Check if your computer has the requirements to run the samples. Refer to the [Requirements](./README.md#requirements) section for the pre-requisites needed.
-* Open the solution in Visual Studio. If the ArcGIS Pro assembly references are broken, please refer to [this link](wiki/How-to-fix-the-broken-references-in-my-ArcGIS-Pro-Add-in-solution%3F) on how to fix them.
+* Open the solution in Visual Studio. If the ArcGIS Pro assembly references are broken, please refer to [this link](./wiki/How-to-fix-the-broken-references-in-my-ArcGIS-Pro-Add-in-solution%3F) on how to fix them.
 * Compile the code and click Start to open ArcGIS Pro. The add-ins from the samples solution will load. 
 
 ## Requirements
